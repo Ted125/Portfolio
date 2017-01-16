@@ -35,3 +35,26 @@ p{
 .tile-body{
 	padding: 30px;
 }
+
+table{
+	thead{
+		background-color: #1C2427;
+		th{
+			color: white;
+			text-align: center;
+			font-family: 'lato';
+			font-size: 30px;
+		}
+	}
+}
+
+.skill{
+	padding: 50px;
+	h2{
+		font-family: 'lato';
+		color: white;
+	}
+	hr{
+		margin: 30px;
+	}
+}
