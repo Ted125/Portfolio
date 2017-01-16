@@ -1,0 +1,37 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@font-face{
+	font-family: 'lato';
+	src: url('/fonts/Lato-Regular.ttf');
+}
+
+body{
+	background-color: #303B41;
+}
+
+p{
+	font-family: 'lato';
+	color: white;
+	font-size: 30px;
+}
+
+.about-img{
+	width: 150px;
+	height: 150px;
+}
+
+.tile{
+	background-color: #2A333A;
+	margin: 20px;
+}
+
+.tile-icon{
+	background-color: #1C2427;
+	padding: 30px;
+	border-left: solid 10px #5D6A75;
+}
+
+.tile-body{
+	padding: 30px;
+}
