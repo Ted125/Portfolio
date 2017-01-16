@@ -6,6 +6,11 @@
 	src: url('/fonts/Lato-Regular.ttf');
 }
 
+@font-face{
+	font-family: 'raleway';
+	src: url('/fonts/Raleway-Regular.ttf');
+}
+
 body{
 	background-color: #303B41;
 }
@@ -34,6 +39,14 @@ p{
 
 .tile-body{
 	padding: 30px;
+	h2{
+		font-family: 'lato';
+		color: white;
+	}
+	p{
+		font-family: 'raleway';
+		color: gray;
+	}
 }
 
 table{

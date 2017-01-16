@@ -3,4 +3,6 @@ class StaticPagesController < ApplicationController
 	end
 	def skills
 	end
+	def projects
+	end
 end
