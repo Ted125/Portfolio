@@ -5,12 +5,27 @@
 
 @font-face{
 	font-family: 'lato';
-	src: url('/fonts/Lato-Regular.ttf');
+	src: font_url('Lato-Regular.ttf');
 }
 
 @font-face{
 	font-family: 'raleway';
-	src: url('/fonts/Raleway-Regular.ttf');
+	src: font_url('Raleway-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'break-regular';
+	src: font_url('break-regular.ttf');
+}
+
+@font-face{
+	font-family: 'break-light';
+	src: font_url('break-light.ttf');
+}
+
+@font-face{
+	font-family: 'break-extralight';
+	src: font_url('break-extralight.ttf');
 }
 
 body{
@@ -72,6 +87,7 @@ table{
 	hr{
 		margin: 30px;
 	}
+	margin-bottom: 50px;
 }
 
 .contact-box{
@@ -104,4 +120,37 @@ table{
 	hr{
 		margin-bottom: 50px;
 	}
+
+	margin-bottom: 50px;
+}
+
+.home{
+	h1{
+		margin-top: 150px;
+		font-family: 'break-regular';
+		color: white;
+		font-size: 250px;
+	}
+}
+
+footer{
+	h4{
+		font-family: 'break-light';
+		color: white;
+		font-size: 25px;
+	}
+}
+
+.navbar-default{
+	background-color: #303B41;
+	border: none;
+}
+
+.navbar-brand{
+	font-family: 'break-regular';
+	font-size: 30px;
+}
+
+.about{
+	margin-bottom: 50px;
 }
