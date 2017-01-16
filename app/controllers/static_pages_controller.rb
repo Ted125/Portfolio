@@ -5,4 +5,6 @@ class StaticPagesController < ApplicationController
 	end
 	def projects
 	end
+	def contact
+	end
 end
